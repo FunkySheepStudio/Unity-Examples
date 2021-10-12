@@ -3,7 +3,7 @@ using UnityEngine.UIElements;
 using FunkySheep.Network;
 using FunkySheep.Variables;
 
-[RequireComponent(typeof(UIDocument))]
+//  [RequireComponent(typeof(UIDocument))]
 public class UpdateText : MonoBehaviour
 {
   public StringVariable text;
