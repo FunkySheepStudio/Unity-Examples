@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79461f2128cbc5648b7a191aa4e05ba4, type: 3}
+  m_Name: Movements
+  m_EditorClassIdentifier: 
+  api: /api/games/movements
+  ack: 0
+  fields:
+  - {fileID: 11400000, guid: 5e1bb668d97033f4883a559512d0f871, type: 2}
+  - {fileID: 11400000, guid: 35a34802e024f6e41b4563f9e479314c, type: 2}
+  - {fileID: 11400000, guid: 0b8141f6a989e964698e0271f75e427d, type: 2}
+  - {fileID: 11400000, guid: 90d633d6ed9a7d042b15d6e2d8baca78, type: 2}
+  onReception: {fileID: 11400000, guid: 973c12beeb22a92419c2ba55ebe64342, type: 2}

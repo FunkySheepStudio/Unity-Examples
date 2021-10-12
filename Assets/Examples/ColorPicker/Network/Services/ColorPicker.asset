@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79461f2128cbc5648b7a191aa4e05ba4, type: 3}
+  m_Name: ColorPicker
+  m_EditorClassIdentifier: 
+  api: /api/games/colorpicker
+  ack: 1
+  fields:
+  - {fileID: 11400000, guid: 5e1bb668d97033f4883a559512d0f871, type: 2}
+  - {fileID: 11400000, guid: 8eb8d71c3e719ab4fb56962a941a1017, type: 2}
+  onReception: {fileID: 11400000, guid: cced5e9eda9794c4a949e3174a7e4aec, type: 2}
