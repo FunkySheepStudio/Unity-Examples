@@ -15,6 +15,8 @@ MonoBehaviour:
   api: /api/games/colorpicker
   ack: 1
   fields:
-  - {fileID: 11400000, guid: 5e1bb668d97033f4883a559512d0f871, type: 2}
-  - {fileID: 11400000, guid: 8eb8d71c3e719ab4fb56962a941a1017, type: 2}
+  - apiName: _id
+    variable: {fileID: 11400000, guid: 5e1bb668d97033f4883a559512d0f871, type: 2}
+  - apiName: color
+    variable: {fileID: 11400000, guid: 8eb8d71c3e719ab4fb56962a941a1017, type: 2}
   onReception: {fileID: 11400000, guid: cced5e9eda9794c4a949e3174a7e4aec, type: 2}

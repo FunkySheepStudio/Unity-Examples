@@ -22,19 +22,17 @@ public class User : GenericSingletonClass<User>
 
     void Auth() {
       authService.fields.Clear();
-
       StringVariable strategy = ScriptableObject.CreateInstance<StringVariable>();
       strategy.name = "strategy";
-      strategy.apiName = "strategy";
       if (accessToken.Value == null || accessToken.Value == "") {
         strategy.Value = "local";
-        authService.fields.Add(login);
-        authService.fields.Add(password);
-        authService.fields.Add(strategy);
+        authService.fields.Add(new ServiceField("login", login));
+        authService.fields.Add(new ServiceField("password", password));
+        authService.fields.Add(new ServiceField("strategy", strategy));
       } else {
         strategy.Value = "jwt";
-        authService.fields.Add(accessToken);
-        authService.fields.Add(strategy);
+        authService.fields.Add(new ServiceField("accessToken", accessToken));
+        authService.fields.Add(new ServiceField("strategy", strategy));
       }
       authService.CreateRecords();
 

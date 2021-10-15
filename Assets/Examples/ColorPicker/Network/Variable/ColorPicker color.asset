@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39ec038f337e021489cffacb9978b763, type: 3}
-  m_Name: login
+  m_Name: ColorPicker color
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  apiName: login
+  apiName: color
   reset: 0
-  _value: admin
+  _value: 

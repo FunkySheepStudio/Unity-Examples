@@ -15,6 +15,8 @@ MonoBehaviour:
   api: /api/system/users
   ack: 1
   fields:
-  - {fileID: 11400000, guid: 5e1bb668d97033f4883a559512d0f871, type: 2}
-  - {fileID: 11400000, guid: 56043660339c8d945abe1a38ba5916e4, type: 2}
+  - apiName: _id
+    variable: {fileID: 11400000, guid: 5e1bb668d97033f4883a559512d0f871, type: 2}
+  - apiName: nickname
+    variable: {fileID: 11400000, guid: 56043660339c8d945abe1a38ba5916e4, type: 2}
   onReception: {fileID: 11400000, guid: 58a4f6526e10c324ba58b29612bc2638, type: 2}

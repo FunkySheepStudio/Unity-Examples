@@ -15,8 +15,12 @@ MonoBehaviour:
   api: /api/games/movements
   ack: 0
   fields:
-  - {fileID: 11400000, guid: 5e1bb668d97033f4883a559512d0f871, type: 2}
-  - {fileID: 11400000, guid: 35a34802e024f6e41b4563f9e479314c, type: 2}
-  - {fileID: 11400000, guid: 0b8141f6a989e964698e0271f75e427d, type: 2}
-  - {fileID: 11400000, guid: 90d633d6ed9a7d042b15d6e2d8baca78, type: 2}
+  - apiName: _id
+    variable: {fileID: 11400000, guid: 5e1bb668d97033f4883a559512d0f871, type: 2}
+  - apiName: xposition
+    variable: {fileID: 11400000, guid: 35a34802e024f6e41b4563f9e479314c, type: 2}
+  - apiName: yposition
+    variable: {fileID: 11400000, guid: 0b8141f6a989e964698e0271f75e427d, type: 2}
+  - apiName: zposition
+    variable: {fileID: 11400000, guid: 90d633d6ed9a7d042b15d6e2d8baca78, type: 2}
   onReception: {fileID: 11400000, guid: 973c12beeb22a92419c2ba55ebe64342, type: 2}

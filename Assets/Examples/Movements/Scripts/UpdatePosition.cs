@@ -9,18 +9,14 @@ public class UpdatePosition : MonoBehaviour
   public FloatVariable yposition;
   public FloatVariable zposition;
 
-  [SerializeField]
-  private bool _moving = false;
-
   private float _lastXposition;
   private float _lastYposition;
   private float _lastZposition;
 
-  public int frequency = 1000;
+  public int frequency = 15;
   private float _lastSentDelta = 0;
 
   void Update() {
-    bool send = false;
     _lastSentDelta += UnityEngine.Time.deltaTime;
 
     //  If position changed
@@ -29,12 +25,7 @@ public class UpdatePosition : MonoBehaviour
       xposition.Value = _lastXposition = transform.position.x;
       yposition.Value = _lastYposition = transform.position.y;
       zposition.Value = _lastZposition = transform.position.z;
-      send = true;
-    }
-
-    if (_lastSentDelta * 1000 > frequency && send && _moving) {
       service.PatchRecords();
-      _lastSentDelta = 0;
     }
   }
 
@@ -43,12 +34,5 @@ public class UpdatePosition : MonoBehaviour
     _lastXposition = transform.position.x;
     _lastYposition = transform.position.y;
     _lastZposition = transform.position.z;
-  }
-
-  public void startMoving() {
-    _moving = true;
-  }
-  public void stopMoving() {
-    _moving = false;
   }
 }

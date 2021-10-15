@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39ec038f337e021489cffacb9978b763, type: 3}
-  m_Name: _id
+  m_Name: User accessToken
   m_EditorClassIdentifier: 
-  DeveloperDescription: User ID
-  apiName: _id
-  reset: 0
+  DeveloperDescription: User Authentification Token
+  apiName: accessToken
+  reset: 1
   _value: 
