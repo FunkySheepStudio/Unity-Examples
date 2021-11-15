@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FunkySheep.Network;
+using FunkySheep.Events;
 
 public class ColorPicker : MonoBehaviour
 {
     public FunkySheep.Types.String color;
     public Service service;
-
-    private void Start() {
-        if (service) {
-            service.GetRecord();
-        }
-    }
 
     public void setColor()
     {
