@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FunkySheep.Variables;
 using FunkySheep.Network;
 
 public class ColorPicker : MonoBehaviour
 {
-    public StringVariable color;
+    public FunkySheep.Types.String color;
     public Service service;
 
     private void Start() {

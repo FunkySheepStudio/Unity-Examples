@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using FunkySheep.Network;
-using FunkySheep.Variables;
+
 
 [RequireComponent(typeof(UIDocument))]
 public class Nickname : MonoBehaviour
 {
-    public StringVariable nickname;
+    public FunkySheep.Types.String nickname;
     public Service service;
     public void set()
     {

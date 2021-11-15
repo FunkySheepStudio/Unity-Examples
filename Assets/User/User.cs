@@ -1,16 +1,16 @@
 using System;
 using UnityEngine;
 using FunkySheep.Network;
-using FunkySheep.Variables;
+
 using FunkySheep.Events;
 
 
-public class User : GenericSingletonClass<User>
+public class User : FunkySheep.Types.SingletonClass<User>
 {
-    public StringVariable _id;
-    public StringVariable login;
-    public StringVariable password;
-    public StringVariable accessToken;
+    public FunkySheep.Types.String _id;
+    public FunkySheep.Types.String login;
+    public FunkySheep.Types.String password;
+    public FunkySheep.Types.String accessToken;
     public Service service;
     public Service authService;
 
@@ -22,7 +22,7 @@ public class User : GenericSingletonClass<User>
 
     void Auth() {
       authService.fields.Clear();
-      StringVariable strategy = ScriptableObject.CreateInstance<StringVariable>();
+      FunkySheep.Types.String strategy = ScriptableObject.CreateInstance<FunkySheep.Types.String>();
       strategy.name = "strategy";
       if (accessToken.Value == null || accessToken.Value == "") {
         strategy.Value = "local";

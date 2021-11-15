@@ -1,13 +1,12 @@
 using UnityEngine;
-using FunkySheep.Variables;
 using FunkySheep.Network;
 
 public class UpdatePosition : MonoBehaviour
 {    
   public Service service;
-  public FloatVariable xposition;
-  public FloatVariable yposition;
-  public FloatVariable zposition;
+  public FunkySheep.Types.Float xposition;
+  public FunkySheep.Types.Float yposition;
+  public FunkySheep.Types.Float zposition;
 
   private float _lastXposition;
   private float _lastYposition;

@@ -4,7 +4,7 @@
     "com.unity.test-framework": "1.1.29",
     "com.unity.ui": "1.0.0-preview.18",
     "com.unity.ui.builder": "1.0.0-preview.18",
-    "net.funkysheep.unity.library": "0.1.8",
+    "net.funkysheep.unity.network": "0.1.1",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
