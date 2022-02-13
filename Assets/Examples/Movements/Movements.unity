@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!84 &421386446
+--- !u!84 &272500930
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,8 +137,8 @@ RenderTexture:
   m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
   serializedVersion: 3
-  m_Width: 731
-  m_Height: 281
+  m_Width: 951
+  m_Height: 483
   m_AntiAliasing: 1
   m_MipCount: -1
   m_DepthFormat: 1
@@ -274,7 +274,7 @@ PrefabInstance:
     - target: {fileID: 643642166392576217, guid: 3d2d903a23d1cfb40b386396dc38ec82, type: 3}
       propertyPath: Connection
       value: 
-      objectReference: {fileID: 11400000, guid: 894b1f94aa04b3a4a859c74fd7e2ece9, type: 2}
+      objectReference: {fileID: 11400000, guid: 579c4520d8b8dd34097d6d9cb68683ac, type: 2}
     - target: {fileID: 643642166392576217, guid: 3d2d903a23d1cfb40b386396dc38ec82, type: 3}
       propertyPath: services.Array.size
       value: 4
@@ -382,7 +382,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 140, y: 30, z: 0}
---- !u!84 &1994551221
+--- !u!84 &1391087954
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -396,8 +396,8 @@ RenderTexture:
   m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
   serializedVersion: 3
-  m_Width: 731
-  m_Height: 281
+  m_Width: 951
+  m_Height: 483
   m_AntiAliasing: 1
   m_MipCount: -1
   m_DepthFormat: 1
@@ -640,7 +640,6 @@ MonoBehaviour:
   xposition: {fileID: 11400000, guid: 35a34802e024f6e41b4563f9e479314c, type: 2}
   yposition: {fileID: 11400000, guid: 0b8141f6a989e964698e0271f75e427d, type: 2}
   zposition: {fileID: 11400000, guid: 90d633d6ed9a7d042b15d6e2d8baca78, type: 2}
-  _lastXposition: 0
   frequency: 250
 --- !u!114 &1307590576695847609
 MonoBehaviour:
@@ -929,7 +928,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 0
   m_RenderingPath: 1
-  m_TargetTexture: {fileID: 421386446}
+  m_TargetTexture: {fileID: 1391087954}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -983,8 +982,8 @@ MonoBehaviour:
   autoEnableOutlines: 1
   outlineCamera: {fileID: 4617030644543944631}
   outlineShaderMaterial: {fileID: 0}
-  renderTexture: {fileID: 421386446}
-  extraRenderTexture: {fileID: 1994551221}
+  renderTexture: {fileID: 1391087954}
+  extraRenderTexture: {fileID: 272500930}
 --- !u!20 &4617030645556263421
 Camera:
   m_ObjectHideFlags: 0
