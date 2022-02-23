@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4497093, g: 0.49977684, b: 0.57563406, a: 1}
+  m_IndirectSpecularColor: {r: 0.4497097, g: 0.49977726, b: 0.57563514, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!84 &272500930
+--- !u!84 &232228242
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,8 +137,8 @@ RenderTexture:
   m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
   serializedVersion: 3
-  m_Width: 951
-  m_Height: 483
+  m_Width: 1046
+  m_Height: 617
   m_AntiAliasing: 1
   m_MipCount: -1
   m_DepthFormat: 1
@@ -272,9 +272,17 @@ PrefabInstance:
       value: Network
       objectReference: {fileID: 0}
     - target: {fileID: 643642166392576217, guid: 3d2d903a23d1cfb40b386396dc38ec82, type: 3}
+      propertyPath: status
+      value: 
+      objectReference: {fileID: 11400000, guid: b2781eb09057add468f452e8728cc5a4, type: 2}
+    - target: {fileID: 643642166392576217, guid: 3d2d903a23d1cfb40b386396dc38ec82, type: 3}
       propertyPath: Connection
       value: 
-      objectReference: {fileID: 11400000, guid: 579c4520d8b8dd34097d6d9cb68683ac, type: 2}
+      objectReference: {fileID: 11400000, guid: 17eb0bdbecf0ca24dbfc60b54b684463, type: 2}
+    - target: {fileID: 643642166392576217, guid: 3d2d903a23d1cfb40b386396dc38ec82, type: 3}
+      propertyPath: onStatusChanged
+      value: 
+      objectReference: {fileID: 11400000, guid: 93d5c0616970c864ba9a6917dcf38b42, type: 2}
     - target: {fileID: 643642166392576217, guid: 3d2d903a23d1cfb40b386396dc38ec82, type: 3}
       propertyPath: services.Array.size
       value: 4
@@ -382,7 +390,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 140, y: 30, z: 0}
---- !u!84 &1391087954
+--- !u!84 &1799117825
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -396,8 +404,8 @@ RenderTexture:
   m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
   serializedVersion: 3
-  m_Width: 951
-  m_Height: 483
+  m_Width: 1046
+  m_Height: 617
   m_AntiAliasing: 1
   m_MipCount: -1
   m_DepthFormat: 1
@@ -928,7 +936,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 0
   m_RenderingPath: 1
-  m_TargetTexture: {fileID: 1391087954}
+  m_TargetTexture: {fileID: 1799117825}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -982,8 +990,8 @@ MonoBehaviour:
   autoEnableOutlines: 1
   outlineCamera: {fileID: 4617030644543944631}
   outlineShaderMaterial: {fileID: 0}
-  renderTexture: {fileID: 1391087954}
-  extraRenderTexture: {fileID: 272500930}
+  renderTexture: {fileID: 1799117825}
+  extraRenderTexture: {fileID: 232228242}
 --- !u!20 &4617030645556263421
 Camera:
   m_ObjectHideFlags: 0
