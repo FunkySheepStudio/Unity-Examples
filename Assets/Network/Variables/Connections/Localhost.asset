@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f14ea86eba822c2429043ae0d0c28197, type: 3}
-  m_Name: Funkysheep Admin
+  m_Name: Localhost
   m_EditorClassIdentifier: 
-  address: wss://admin.funkysheep.net
+  address: ws://localhost
   port: 443
