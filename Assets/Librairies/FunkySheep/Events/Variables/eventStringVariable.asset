@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01c097419f3afdb4ab073703e6598123, type: 3}
-  m_Name: User _id
+  m_Name: eventStringVariable
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  reset: 1
-  _value: BoF5OOIyRX5I45o9
+  reset: 0
+  _value: Simple FunkySheep Variable example

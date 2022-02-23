@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: User accessToken
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  reset: 0
-  _value: 
+  reset: 1
+  _value: eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJpYXQiOjE2NDU0NzgxODYsImV4cCI6MTY0NTU2NDU4NiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3QiLCJpc3MiOiJmZWF0aGVycyIsInN1YiI6IkJvRjVPT0l5Ulg1STQ1bzkiLCJqdGkiOiIxZWFhYTYxZi0wOGNjLTQ1ZjUtYjYxZS05ZTk5NzdjNDA2MjkifQ.RNfTbmh6W36bBJJii1eZTLUFK6Z_WmyxPLC81sVAY-Q

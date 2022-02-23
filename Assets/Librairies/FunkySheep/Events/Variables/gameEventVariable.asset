@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c097419f3afdb4ab073703e6598123, type: 3}
-  m_Name: User _id
+  m_Script: {fileID: 11500000, guid: 79ad74a431c7359499ff7d31174ed8c7, type: 3}
+  m_Name: gameEventVariable
   m_EditorClassIdentifier: 
-  DeveloperDescription: 
-  reset: 1
-  _value: BoF5OOIyRX5I45o9
