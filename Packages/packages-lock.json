@@ -50,18 +50,20 @@
       "url": "https://packages.unity.com"
     },
     "net.funkysheep.unity.library": {
-      "version": "file:C:/Users/sjarde.69r/Documents/FunkySheep/Framework/Unity-Library",
+      "version": "0.3.3",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.org"
     },
     "net.funkysheep.unity.network": {
-      "version": "file:C:/Users/sjarde.69r/Documents/FunkySheep/Framework/Unity-Network",
+      "version": "0.1.6",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "net.funkysheep.unity.library": "0.3.3"
-      }
+      },
+      "url": "https://registry.npmjs.org"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
